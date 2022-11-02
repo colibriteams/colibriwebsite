@@ -1,0 +1,6 @@
+.alert {
+    &-success {
+        background: $primary-gradient;
+        color: $primary;
+    }
+}

@@ -1,0 +1,118 @@
+$primary:           #0F2042;
+$primary-gradient:   linear-gradient(82.85deg, #D4EFFF 9.14%, #B8FFFC 36.91%, #E4FFCC 92.67%);
+$secondary:         #FDC400;
+$blue:              #B8FFFC;
+$white:             #FFFFFF;
+$gray:              #848B99;
+$danger:            #F14610;
+$form-outline:      #0085FF;
+
+$body-bg:           $primary;
+
+// Set new theme colors
+$theme-colors: (
+  "primary":      $primary,
+  "secondary":    $secondary,
+  "white":        $white,
+  "blue":         $blue,
+  "danger":       $danger,
+);
+
+// Fonts
+$font-family-primary:      'Poppins';
+$font-family-sans-serif:   $font-family-primary;
+
+$h1-font-size:    5rem !default;
+$h2-font-size:    3.75rem !default;
+$h3-font-size:    1.875rem !default;
+$h4-font-size:    1rem !default;
+$h5-font-size:    0.875rem !default;
+$h6-font-size:    0.75rem !default;
+
+$font-sizes: (
+    1: $h1-font-size,
+    2: $h2-font-size,
+    3: $h3-font-size,
+    4: $h4-font-size,
+    5: $h5-font-size,
+    6: $h6-font-size
+) !default;
+
+// Input
+$input-bg:                     $white;
+$input-disabled-bg:            transparent;
+$input-disabled-border-color:  transparent;
+$input-color:                  $primary;
+$input-border-color:           $primary;
+$input-border-width:           2px;
+$input-box-shadow:             none;
+$input-padding-y:              0.8125rem;
+$input-padding-x:              1rem;
+$input-border-radius:          0.75rem;
+
+// Spacer
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 7,
+);
+
+// Buttons
+$btn-padding-y:               16px;
+$btn-padding-x:               32px;
+
+// Card
+$card-border-color:     null;
+$card-border-radius:    0.75rem;
+$card-box-shadow:       none;
+
+// Accordion
+// $accordion-padding-y:                     1rem;
+// $accordion-padding-x:                     1.25rem;
+// $accordion-color:                         $body-color;
+// $accordion-bg:                            $body-bg;
+// $accordion-border-width:                  $border-width;
+$accordion-border-color:                  $white;
+$accordion-border-radius:                 0;
+// $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width);
+
+// $accordion-body-padding-y:                $accordion-padding-y;
+// $accordion-body-padding-x:                $accordion-padding-x;
+
+$accordion-button-padding-y:              2.5rem;
+$accordion-button-padding-x:              2.125rem;
+$accordion-button-color:                  $white;
+$accordion-button-bg:                     transparent;
+// $accordion-transition:                    $btn-transition, border-radius .15s ease;
+$accordion-button-active-bg:              transparent;
+$accordion-button-active-color:           $white;
+
+// $accordion-button-focus-border-color:     $input-focus-border-color;
+// $accordion-button-focus-box-shadow:       $btn-focus-box-shadow;
+
+$accordion-icon-width:                    3rem;
+// $accordion-icon-color:                    $accordion-button-color;
+// $accordion-icon-active-color:             $accordion-button-active-color;
+// $accordion-icon-transition:               transform .2s ease-in-out;
+// $accordion-icon-transform:                rotate(-180deg);
+
+$accordion-button-icon:         url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.0002 25.172L28.9502 20.222L30.3642 21.636L24.0002 28L17.6362 21.636L19.0502 20.222L24.0002 25.172Z' fill='white'/%3E%3Crect x='1' y='47' width='46' height='46' rx='23' transform='rotate(-90 1 47)' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A");
+$accordion-button-active-icon:  url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.0002 25.172L28.9502 20.222L30.3642 21.636L24.0002 28L17.6362 21.636L19.0502 20.222L24.0002 25.172Z' fill='white'/%3E%3Crect x='1' y='47' width='46' height='46' rx='23' transform='rotate(-90 1 47)' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A");
+
+// Form validation
+$form-feedback-valid-color:         $form-outline;
+$form-feedback-invalid-color:       $danger;
+$form-feedback-icon-invalid:        '';
+$form-feedback-icon-valid:          '';
+
+
+// alert
+
+$alert-border-radius:           12px;

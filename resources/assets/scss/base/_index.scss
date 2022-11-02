@@ -1,0 +1,13 @@
+//  Styling of the elements that will be included on every page
+
+@import "fonts/index";
+
+body {
+    color: $white;
+}
+.bg-primary-gradient {
+    background: $primary-gradient;
+}
+.text-muted {
+    color: $gray !important;
+}

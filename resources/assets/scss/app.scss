@@ -1,0 +1,14 @@
+// If you want to override variables do it here.
+@import "variables";
+
+// Import all of CoreUI
+@import "~bootstrap/scss/bootstrap";
+
+// Import styles shared by all pages.
+@import "base/index";
+
+// Import all components.
+@import "components/all";
+
+// Import all sections.
+@import "sections/all";

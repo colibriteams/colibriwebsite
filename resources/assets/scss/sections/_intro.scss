@@ -1,0 +1,16 @@
+.intro {
+    &__headline {
+        @extend .mb-4;
+        font-weight: 600;
+        line-height: 5rem;
+        letter-spacing: 0.02em;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .intro {
+        &__headline {
+            line-height: 2.4rem;
+        }
+    }
+}

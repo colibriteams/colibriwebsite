@@ -1,0 +1,118 @@
+.rayas-animation{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: -70px;
+    left: -40px;
+
+    img {
+        animation: rayas_animation 10s linear infinite;
+        opacity: 0;
+    }
+      
+      img:nth-child(1){
+        animation-delay: 2.5s;
+        width: 90px;
+      }
+      img:nth-child(2){
+        animation-delay: 1s;
+        width: 200px;
+      }
+      img:nth-child(3){
+        animation-delay: 2s;
+        width: 120px;
+      }
+}
+
+@keyframes rayas_animation{
+    0%{
+      transform: translateY(0);
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    70%{
+      opacity: 1;
+    }
+    100%{
+      transform: translateY(-80vh);
+      opacity: 0;
+    }
+}
+
+.drops-animation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img {
+        animation: drops_animation 7s linear infinite;
+        opacity: 0;
+    }
+      
+      img:nth-child(1){
+        animation-delay: 2.5s;
+        width: 8px;
+      }
+      img:nth-child(2){
+        animation-delay: 1s;
+        width: 11px;
+      }
+      img:nth-child(3){
+        animation-delay: 4s;
+        width: 5px;
+      }
+      img:nth-child(4){
+        animation-delay: 1.7s;
+        width: 7px;
+      }
+      img:nth-child(5){
+        animation-delay: 5s;
+        width: 10px;
+      }
+      img:nth-child(6){
+        animation-delay: 2s;
+        width: 4px;
+      }
+      img:nth-child(7){
+        animation-delay: 4.5s;
+        width: 8px;
+      }
+      img:nth-child(8){
+        animation-delay: 3.5s;
+        width: 4px;
+      }
+      img:nth-child(9){
+        animation-delay: 6s;
+        width: 12px;
+      }
+      img:nth-child(10){
+        animation-delay: 1.5s;
+        width: 6px;
+      }
+}
+
+@keyframes drops_animation{
+    0% {
+        transform: translate(5vh, 10vh);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      70% {
+        opacity: 1;
+      }
+      100% {
+        transform: translate(40vh, 40vh);
+        opacity: 0;
+      }
+  }
+
+  .challege-image{
+    width: 100%;
+  }

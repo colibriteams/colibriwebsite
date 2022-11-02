@@ -1,0 +1,23 @@
+.navbar {
+    &__top-shadow {
+        @extend .position-absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        background: linear-gradient(45deg, black, transparent);
+        height: 202px;
+        pointer-events: none;
+    }
+    .container {
+        z-index: 1;
+    }
+}
+.colibri-logo{
+    width: 80px;
+    margin-top: -5px;
+}
+
+.navbar.navbar-bakground {
+    background: #00000063;
+}

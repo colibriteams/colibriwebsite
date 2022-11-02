@@ -1,0 +1,18 @@
+.btn-primary-gradient {
+    background: $primary-gradient;
+    &:hover {
+        background: linear-gradient(82.85deg, #BEDEF1 9.14%, #A0E6E3 36.91%, #BEE49D 92.67%);
+    }
+    &:active {
+        background: linear-gradient(82.85deg, #AACEE4 9.14%, #83D3CF 36.91%, #9ACA72 92.67%);
+    }
+}
+.btn {
+    font-weight: 700;
+}
+
+@include media-breakpoint-down(md) {
+    .btn-mobile-block {
+        width: 100%;
+    }
+}

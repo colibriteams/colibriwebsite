@@ -1,0 +1,10 @@
+.form-control {
+    &:active, &:focus {
+        border: 2px solid $form-outline;
+        background-color: #EBF0FA;
+    }
+    &:hover {
+        background-color: #EBF0FA;
+    }
+    border: 2px solid $blue;
+}

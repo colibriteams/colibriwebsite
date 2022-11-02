@@ -1,0 +1,32 @@
+.accordion {
+    .accordion-item {
+        border-left: 0;
+        border-right: 0;
+    }
+    .accordion-button {
+        font-weight: 600;
+        font-size: $h3-font-size;
+        line-height: 1.5rem;
+        box-shadow: none;
+        border: 0 !important;
+        &:not(.collapsed) {
+            font-size: $h1-font-size - .8rem;
+        }
+    }
+    .accordion-body {
+        padding-top: 0;
+    }
+}
+@include media-breakpoint-down(md) {
+    .accordion {
+        .accordion-button {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            padding: 24px 16px;
+            &:not(.collapsed) {
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+            }
+        }
+    }
+}

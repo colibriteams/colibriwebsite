@@ -1,0 +1,28 @@
+.what-we-do {
+    .accordion {
+        background: none;
+
+        .accordion-item{
+            background: none;
+            border: 0;
+        }
+        
+       .accordion-button {
+            font-weight: 600;
+            font-size: 1.875rem;
+            line-height: 1.5rem;
+            box-shadow: none;
+            border: 0;
+            padding: 20px 5px;
+        }
+        .accordion-button::after {
+            background: none;
+        }
+
+        .accordion-body {
+            background: #3e98ea45;
+            padding-top: 10px;
+            font-size: 14px;
+        }
+    }
+}
