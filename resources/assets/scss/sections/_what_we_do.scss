@@ -20,9 +20,32 @@
         }
 
         .accordion-body {
-            background: #3e98ea45;
+            background: rgb(85 164 236 / 10%);
             padding-top: 10px;
             font-size: 14px;
+            min-height: 170px;
         }
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .view-mobile{
+        display: block;
+    }
+
+    .view-desktop{
+        display: none;
+    }
+}
+
+
+@media (min-width: 767.98px) {
+    .view-mobile{
+        display: none;
+    }
+
+    .view-desktop{
+        display: block;
     }
 }

@@ -3224,6 +3224,15 @@ window.bootstrap = __webpack_require__(/*! bootstrap/dist/js/bootstrap.esm.min.j
 
       form.classList.add('was-validated');
     }, false);
+  });
+  var accordions = document.querySelectorAll(".button-toggle");
+  Array.prototype.slice.call(accordions).forEach(function (accordion) {
+    accordion.addEventListener('mouseover', function (event) {
+      accordion.dispatchEvent(new Event('click'));
+    }, false);
+    /* accordion.addEventListener('mouseout', function (event) {
+       accordion.dispatchEvent(new Event('click'));
+    }, false);*/
   }); // scroll to #contact-section on click #nav-contact-btn
   // const contactBtn = document.getElementById('nav-contact-btn')
   // const contactSection = document.getElementById('contact-section')

@@ -12430,6 +12430,10 @@ body {
     font-size: 1rem;
   }
 }
+.white_small_text {
+  font-size: 12px;
+}
+
 .intro__headline {
   font-weight: 600;
   line-height: 5rem;
@@ -12464,7 +12468,12 @@ footer a:hover {
 }
 
 .navbar.navbar-bakground {
-  background: rgba(0, 0, 0, 0.3882352941);
+  background: rgba(0, 0, 0, 0.51);
+}
+@media (max-width: 767px) {
+  .navbar.navbar-bakground {
+    background: #192e58;
+  }
 }
 
 .who-are-we {
@@ -12712,7 +12721,42 @@ footer a:hover {
   background: none;
 }
 .what-we-do .accordion .accordion-body {
-  background: rgba(62, 152, 234, 0.2705882353);
+  background: rgba(85, 164, 236, 0.1);
   padding-top: 10px;
   font-size: 14px;
+  min-height: 170px;
+}
+
+@media (max-width: 767.98px) {
+  .view-mobile {
+    display: block;
+  }
+
+  .view-desktop {
+    display: none;
+  }
+}
+@media (min-width: 767.98px) {
+  .view-mobile {
+    display: none;
+  }
+
+  .view-desktop {
+    display: block;
+  }
+}
+.companies-trust .companies-logo {
+  width: 200px;
+  margin: 10px 0;
+  background: #0F2042;
+}
+.companies-trust .bg-text {
+  background: rgba(255, 255, 255, 0.45);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.companies-trust .team-working {
+  background: url("/assets/images/team_working.png");
+  margin-top: -100px;
+  height: 450px;
 }

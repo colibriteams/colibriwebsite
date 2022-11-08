@@ -18,9 +18,9 @@
     </div>
 </nav>
  -->
- <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-bakground">
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-bakground">
   <div class="container">
-    <a class="nav-link active text-white" aria-current="page" href="#">
+    <a class="text-white pe-4" aria-current="page" href="{{ route('home') }}">
       <img class="colibri-logo" src="{{ asset('assets/images/colibri-logo.png') }}" alt="Logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,9 +28,16 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active text-white" aria-current="page" href="#"> Home</a>
-        <a class="nav-link text-white" href="#what-we-do">What we do</a>
-        <a class="nav-link text-white" href="#contact-section">Contact us</a>
+      <a class="nav-link active text-white pe-4" aria-current="page" href="{{ route('home') }}"> Home</a>
+        @if(request()->path() == '/')
+          <a class="nav-link text-white pe-4" href="#what-we-do">What we do</a>
+          <a class="nav-link text-white pe-4" href="#contact-section">Contact us</a>
+          <a class="nav-link text-white pe-4" href="{{ route('join-us') }}">Join us</a>
+        @else
+          <a class="nav-link text-white pe-4" href="{{ route('home') }}/#what-we-do">What we do</a>
+          <a class="nav-link text-white pe-4" href="{{ route('home') }}/#contact-section">Contact us</a>
+          <a class="nav-link text-white pe-4" href="{{ route('join-us') }}">Join us</a>
+        @endif
       </div>
     </div>
   </div>

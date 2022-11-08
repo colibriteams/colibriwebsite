@@ -19,5 +19,9 @@
 }
 
 .navbar.navbar-bakground {
-    background: #00000063;
+    background: rgb(0 0 0 / 51%);
+
+    @media (max-width:767px) {
+        background: #192e58
+    }
 }
