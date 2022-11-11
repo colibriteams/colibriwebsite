@@ -106,7 +106,7 @@
                     <p class="text-primary">Our approach provides seamless integration, increased productivity and reduced churn.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-lg-3">
                     <div class="accordion" id="what-we-do-item1">
                         <div class="accordion-item">
@@ -273,17 +273,32 @@
                     <p class="text-primary">Build your product from start to finish with our agile squads with expertise in Python, JavaScript, .NET, React, Angular, and Swift, among other languages and frameworks.</p>
                 </div>
             </div>
-            <div class="row"> 
-                <div class="col text-center">
-                    <img class="companies-logo" src="{{ asset('assets/images/colibri-logo.png') }}" alt="company logo">
+      
+            <div class="row mt-5">
+                <div class="col-sm-12 col-lg-2">
                 </div>
-                <div class="col text-center">
-                    <img class="companies-logo" src="{{ asset('assets/images/colibri-logo.png') }}" alt="company logo">
+                <div class="col-sm-12 col-lg-8 row-display">
+                    <a href="https://deepgreen.energy" target="_blanck">
+                        <img class="companies-logo" src="{{ asset('assets/images/DeepGreen-logo.png') }}" alt="company logo">
+                    </a>
+                    <div>
+                        <p class="companies-summary text-center">
+                            "Our Colibri Engineering Team have been amazing. Seamless onboarding into actual work. They have been integral in the build and launch of our new website presence and our sensor technologies for our hardware."
+                        </p>
+                        <p class="text-primary text-center">
+                            Matt, Founder Deep Green technologies.
+                        </p>
+                    </div>
                 </div>
-                <div class="col text-center">
-                    <img class="companies-logo" src="{{ asset('assets/images/colibri-logo.png') }}" alt="company logo">
-                </div>
+                <div class="col-sm-12 col-lg-2">
             </div>
+                <!-- <div class="col-sm-12 col-lg-4 d-flex align-items-center">
+                    <p class="text-primary">
+                        Matt, Founder Deep Green technologies.
+                    </p>
+                </div> -->
+            </div>
+               
             <!-- <div class="row team-working">
                 <div class="col-lg-6"> 
                     <p class="text-primary bg-text">Clients chose Colibri Engineering Squads to scale their in-house capabilities, build capability through extended teams to diversify and strengthen their tech 

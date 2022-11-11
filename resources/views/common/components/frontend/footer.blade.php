@@ -6,6 +6,12 @@
                     <a class="navbar-brand" href="/">
                     <img src="{{ asset('assets/images/footer-logo.png') }}" alt="Colibri" width="58">
                     </a>
+                    <a class="navbar-brand" href="mailto:info@colibriteams.com">
+                    <img src="{{ asset('assets/images/email-icon.png') }}" alt="Colibri" width="40">
+                    </a>
+                    <a class="navbar-brand" href="https://www.linkedin.com/company/colibriteams" target="_blanck">
+                    <img src="{{ asset('assets/images/linked-in-icon.png') }}" alt="Colibri" width="40">
+                    </a>
                 </div>
                 <div class="d-flex justify-content-center flex-lg-row flex-column gap-4 text-center">
                     <a href="/privacy" class="text-white text-decoration-none">Privacy Policy</a>

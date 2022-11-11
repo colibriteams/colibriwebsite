@@ -20,9 +20,9 @@
         <div class="container flex-grow-1">
             <div class="row justify-content-md-end justify-content-center align-items-center">
                 <div class="col-lg-6 hero-section__col justify-content-center align-items-md-end align-items-center text-md-end text-center">
-                    <h1 class="text-white mb-0">
+                    <h1 class="text-white mb-0 mt-5">
                         Join us. <br>
-                        Work happy
+                        Work happy.
                     </h1>
                     <p class="text-white my-4 py-2 text-md-end text-center ms-auto">Colibri is built on the welfare and happiness of our teams. If you are successful, we all are!</p>
                 </div>

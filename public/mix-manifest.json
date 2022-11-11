@@ -2,6 +2,7 @@
     "/assets/js/app.js": "/assets/js/app.js",
     "/assets/css/app.css": "/assets/css/app.css",
     "/assets/images/.DS_Store": "/assets/images/.DS_Store",
+    "/assets/images/DeepGreen-logo.png": "/assets/images/DeepGreen-logo.png",
     "/assets/images/Happiness.png": "/assets/images/Happiness.png",
     "/assets/images/Happiness_blue.png": "/assets/images/Happiness_blue.png",
     "/assets/images/Language.png": "/assets/images/Language.png",
@@ -26,6 +27,7 @@
     "/assets/images/csr-icon.svg": "/assets/images/csr-icon.svg",
     "/assets/images/drop.png": "/assets/images/drop.png",
     "/assets/images/ebay_logo.png": "/assets/images/ebay_logo.png",
+    "/assets/images/email-icon.png": "/assets/images/email-icon.png",
     "/assets/images/footer-logo.png": "/assets/images/footer-logo.png",
     "/assets/images/gsk_logo.png": "/assets/images/gsk_logo.png",
     "/assets/images/hamburger-button.svg": "/assets/images/hamburger-button.svg",
@@ -35,10 +37,12 @@
     "/assets/images/hero_beach.jpg": "/assets/images/hero_beach.jpg",
     "/assets/images/hero_swim.jpg": "/assets/images/hero_swim.jpg",
     "/assets/images/hsbs_logo.png": "/assets/images/hsbs_logo.png",
+    "/assets/images/instagram-icon.png": "/assets/images/instagram-icon.png",
     "/assets/images/intro-pic-mobile.png": "/assets/images/intro-pic-mobile.png",
     "/assets/images/intro-pic.png": "/assets/images/intro-pic.png",
     "/assets/images/intro-pic_join-us.png": "/assets/images/intro-pic_join-us.png",
     "/assets/images/intro-pic_join-us_mobile.png": "/assets/images/intro-pic_join-us_mobile.png",
+    "/assets/images/linked-in-icon.png": "/assets/images/linked-in-icon.png",
     "/assets/images/logo.png": "/assets/images/logo.png",
     "/assets/images/logo_bg.svg": "/assets/images/logo_bg.svg",
     "/assets/images/logo_bg_mobile.svg": "/assets/images/logo_bg_mobile.svg",
@@ -49,5 +53,6 @@
     "/assets/images/shake-hand-icon.svg": "/assets/images/shake-hand-icon.svg",
     "/assets/images/success_icon.svg": "/assets/images/success_icon.svg",
     "/assets/images/team_working.jpg": "/assets/images/team_working.jpg",
-    "/assets/images/team_working.png": "/assets/images/team_working.png"
+    "/assets/images/team_working.png": "/assets/images/team_working.png",
+    "/assets/images/twitter-icon.png": "/assets/images/twitter-icon.png"
 }
