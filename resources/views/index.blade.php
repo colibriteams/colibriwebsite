@@ -37,14 +37,14 @@
                 <div class="challenge-delivery">
                     <div class="row">
                         <div class="col-12 delivery-title">
-                            <h2 class="intro__headline pb-5">Challenges - Colibri delivers</h2>
+                            <h2 class="intro__headline py-4">Challenges - Colibri delivers</h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 bg-delivery-text"> 
                         <div>
                             <p>Keeping developers happy makes financial sense.</p>
-                            <p>Over a 3 year period, reducing churn from an industry average of 30% to 5% saves you $107K* in direct costs per resource per year.</p>
+                            <p>Over a 3 year period, reducing churn from an industry average of 30% to 5% saves you $103K* in direct costs per new resource in year 1.</p>
                             <p>More importantly, by holding knowledge within a committed team – we deliver better code, faster.</p>
                             <p>If you are struggling to recruit the talent you need, get Colibri involved. We can start small and build as your requirements grow.</p>
                             <p class="white_small_text pt-3">*assumes a average salary for a mid level engineer</p>
